@@ -1,0 +1,45 @@
+.footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color:tomato;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.heading{
+    font-size: 18px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px, 5px, 5px, grey;
+}
+body{
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+#name_inp{
+    
+        font-family: cursive;
+        font-size: 15px;
+        line-height: 20px;
+        width: 50%;
+        height: 50px;
+        background: none;
+        border: none;
+        margin-top: 10%;
+        text-align: center;
+       
+}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -150%;
+	opacity: 1;
+	color: white;
+}
+#next_pg{
+  margin-top: 2%;  
+  width: 100px;
+  display: none;
+}
